@@ -1,0 +1,23 @@
+-- DOTNET --
+dotnet new (plantilla) --name (nombre) -> crea una aplicacion con la plantilla y el nombre indicado.
+dotnet new --list -> muestra todas las plantillas que tiene instaladas.
+dotnet run -> arranca la aplicación.
+dotnet watch -> arranca la aplicación y va actualizando los cambios en caliente.
+dotnet build -> compila la aplicación.
+dotnet dev-certs https --trust -> configura el certificado de desarrollo de HTTPS.
+dotnet new sln --name (nombre de la solución) -> genera el fichero del proyecto.
+dotnet sln (nombre de la solución) add (nombre del proyecto) -> añade a la solución un proyecto.
+dotnet nuget locals all --clear -> limpia la cache.
+dotnet add package (nombre del paquete nudget) -> instala el paquete indicado.
+dotnet remove package (nombre del paquete nudget) -> borra el paquete indicado.
+
+-- ENTITYFRAMEWORKCORE --
+https://docs.microsoft.com/es-es/ef/core/cli/dotnet
+
+dotnet tool install --global dotnet-ef -> instala las herramientas de entityframeworkcore.
+dotnet tool update --global dotnet-ef -> actualiza a la última versión las herramientas de entityframeworkcore.
+dotnet ef -> comando de la herramienta de EF.
+dotnet ef migrations add InitialCreate -> crea el codigo para generar el esquema inicial de la base de datos.
+dotnet ef migrations add (nombre migracion) -> crea el cogido de la migración que cambia del estado anterior al nuevo estado.
+dotnet ef database update -> aplica las migraciones a la base de datos.
+

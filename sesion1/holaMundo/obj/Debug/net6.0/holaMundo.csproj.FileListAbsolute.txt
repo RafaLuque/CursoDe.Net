@@ -1,0 +1,15 @@
+C:\Users\Rafa\Desktop\cursoDe.Net\holaMundo\bin\Debug\net6.0\holaMundo.exe
+C:\Users\Rafa\Desktop\cursoDe.Net\holaMundo\bin\Debug\net6.0\holaMundo.deps.json
+C:\Users\Rafa\Desktop\cursoDe.Net\holaMundo\bin\Debug\net6.0\holaMundo.runtimeconfig.json
+C:\Users\Rafa\Desktop\cursoDe.Net\holaMundo\bin\Debug\net6.0\holaMundo.dll
+C:\Users\Rafa\Desktop\cursoDe.Net\holaMundo\bin\Debug\net6.0\ref\holaMundo.dll
+C:\Users\Rafa\Desktop\cursoDe.Net\holaMundo\bin\Debug\net6.0\holaMundo.pdb
+C:\Users\Rafa\Desktop\cursoDe.Net\holaMundo\obj\Debug\net6.0\holaMundo.csproj.AssemblyReference.cache
+C:\Users\Rafa\Desktop\cursoDe.Net\holaMundo\obj\Debug\net6.0\holaMundo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafa\Desktop\cursoDe.Net\holaMundo\obj\Debug\net6.0\holaMundo.AssemblyInfoInputs.cache
+C:\Users\Rafa\Desktop\cursoDe.Net\holaMundo\obj\Debug\net6.0\holaMundo.AssemblyInfo.cs
+C:\Users\Rafa\Desktop\cursoDe.Net\holaMundo\obj\Debug\net6.0\holaMundo.csproj.CoreCompileInputs.cache
+C:\Users\Rafa\Desktop\cursoDe.Net\holaMundo\obj\Debug\net6.0\holaMundo.dll
+C:\Users\Rafa\Desktop\cursoDe.Net\holaMundo\obj\Debug\net6.0\ref\holaMundo.dll
+C:\Users\Rafa\Desktop\cursoDe.Net\holaMundo\obj\Debug\net6.0\holaMundo.pdb
+C:\Users\Rafa\Desktop\cursoDe.Net\holaMundo\obj\Debug\net6.0\holaMundo.genruntimeconfig.cache

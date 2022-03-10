@@ -1,0 +1,16 @@
+﻿@model IEnumerable<TodoTask>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Pending Tasks</h1>
+    <ul>
+    @foreach (var task in Model)
+    {
+        <li>@task.Description - <a href="@Url.Action("MarkDone", new {id= task.Id})">Mark as done</a></li>
+    }    
+    </ul>
+
+</div>
