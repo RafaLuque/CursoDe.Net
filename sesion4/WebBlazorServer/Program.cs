@@ -1,10 +1,15 @@
-using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Web;
 using WebBlazorServer.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+//Hay que registrar la cadena de conexión
+var conn = builder.Configuration["data:conn"];
+builder.Services.AddDbContext<TodoContext>(opt=> opt.UseNpgsql(conn));
+
 // Add services to the container.
+builder.Services.AddTransient<ITodoServices,TodoServices>();
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();

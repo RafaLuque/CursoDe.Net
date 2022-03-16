@@ -1,8 +1,64 @@
 ﻿@page "/"
+@using WebBlazorServer.Data
+@inject ITodoServices todoService
 
 <PageTitle>Index</PageTitle>
 
 <h1>Hello, world!</h1>
 
 Welcome to your new app.
+
+<hr/>
+@if(_todos is not null)
+{
+	<ul>
+		@foreach (var task in _todos)
+		{
+			<li>@task.Id - @task.Description</li>
+		}
+	</ul>
+}else
+{
+	<p>Cargando tareas...</p>
+}
+<br/>
+<button @onclick="OnNewTask">New Task</button>
+
+<hr/>
+<br/>
+
+<DemoComponent Value="_value" OnValueChanged="OnValueChangedHadler" />
+
+<br/>
+<button @onclick="OnButtonClicked">Incrementar valor</button>
+
+@code{
+	private int _value=0;
+	private List<TodoTask> _todos;
+
+	protected async Task OnNewTask (MouseEventArgs args)
+	{
+		var newTodoTask= new TodoTask(){
+			Description="El elemento es nuevo...",
+			DoneWhen = null
+		};
+
+		_todos.Add(newTodoTask);
+		 await todoService.AddNewTask(newTodoTask);
+	}
+
+	protected override async Task OnInitializedAsync()
+	{
+		_todos = (await todoService.GetPendingTodos()).ToList();
+	}
+
+	private void OnButtonClicked(MouseEventArgs args)
+	{
+		_value++;
+	}
+
+	private void OnValueChangedHadler(int value){
+		_value=value;
+	}
+}
 

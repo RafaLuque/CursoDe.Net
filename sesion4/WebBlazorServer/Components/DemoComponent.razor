@@ -1,0 +1,24 @@
+<h3>DemoComponent</h3>
+
+<hr/>
+<p>Como pasar los valores de los compoentes Padre al Hijo y al contrario</p>
+<hr/>
+<p>Valor actual: @Value</p>
+<br/>
+<button @onclick="OnButtonClicked">Resetear valor</button>
+
+@code {
+	[Parameter]
+	public int Value {get; set;}
+
+	[Parameter]
+	public EventCallback<int> OnValueChanged {get; set;}
+
+	private async Task OnButtonClicked(MouseEventArgs args)
+	{
+		Value=0;
+		await OnValueChanged.InvokeAsync(Value);
+	}
+
+
+}
