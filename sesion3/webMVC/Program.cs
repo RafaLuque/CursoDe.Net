@@ -10,9 +10,10 @@ builder.Services.AddDbContext<TodoContext>(opt=> opt.UseNpgsql(conn));
 
 //Hay que registrar los servicios que se crean.
 //Es buenas practicas que se cree una interfaz, se usa sobre todo para las pruebas unitarias.
-//AddSingleton -> se genera una instancia a nivel de programa.
-//AddCors -> se genera una instancia a nivel de request.
-//AddTransient -> se genere una instanca cada vez que se pida el objeto.
+//AddSingleton -> siempre se ejecuta la misma instancia del servicio en todas las peticiones.
+//AddTransient -> cada vez se ejecuta una instancia nueva del servicio en cada peticiones.
+//AddScoped -> dentro de la misma petición, el servicio se instancia una sola vez.
+
 builder.Services.AddTransient<ITodoServices,TodoServices>();
 
 

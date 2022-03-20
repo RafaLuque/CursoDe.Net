@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Rafa\\Desktop\\cursoDe.Net\\sesion3\\webMVC\\webMVC.csproj",
+  "FilePath": "c:\\Users\\Rafa\\Desktop\\.Net\\CursoDe.Net\\sesion3\\webMVC\\webMVC.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16298,43 +16298,43 @@
   "RootNamespace": "webMVC",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Rafa\\Desktop\\cursoDe.Net\\sesion3\\webMVC\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Rafa\\Desktop\\cursoDe.Net\\sesion3\\webMVC\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Rafa\\Desktop\\cursoDe.Net\\sesion3\\webMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Rafa\\Desktop\\cursoDe.Net\\sesion3\\webMVC\\Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\Rafa\\Desktop\\.Net\\CursoDe.Net\\sesion3\\webMVC\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Rafa\\Desktop\\cursoDe.Net\\sesion3\\webMVC\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\Rafa\\Desktop\\.Net\\CursoDe.Net\\sesion3\\webMVC\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Rafa\\Desktop\\.Net\\CursoDe.Net\\sesion3\\webMVC\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Rafa\\Desktop\\cursoDe.Net\\sesion3\\webMVC\\Views\\Home\\Privacy2.cshtml",
-      "TargetPath": "Views\\Home\\Privacy2.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Rafa\\Desktop\\cursoDe.Net\\sesion3\\webMVC\\Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\Rafa\\Desktop\\.Net\\CursoDe.Net\\sesion3\\webMVC\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Rafa\\Desktop\\cursoDe.Net\\sesion3\\webMVC\\Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\Rafa\\Desktop\\.Net\\CursoDe.Net\\sesion3\\webMVC\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Rafa\\Desktop\\.Net\\CursoDe.Net\\sesion3\\webMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Rafa\\Desktop\\.Net\\CursoDe.Net\\sesion3\\webMVC\\Views\\Home\\Privacy2.cshtml",
+      "TargetPath": "Views\\Home\\Privacy2.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Rafa\\Desktop\\.Net\\CursoDe.Net\\sesion3\\webMVC\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     }
   ],
