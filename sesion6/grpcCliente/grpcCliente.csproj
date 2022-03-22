@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="google.protobuf" Version="3.19.4" />
+    <PackageReference Include="grpc.net.clientfactory" Version="2.44.0" />
+    <PackageReference Include="grpc.tools" Version="2.44.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+<!--Hay que incluir en el csproj la ubicación de los protos y si se trata de un servicio o un cliente-->
+  <ItemGroup>
+    <Protobuf Include="Protos\weather.proto"  GrpcServices ="Client"/>
+  </ItemGroup>
+
+</Project>

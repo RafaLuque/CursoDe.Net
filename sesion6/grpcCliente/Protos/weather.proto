@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+//Este fichero proto es la interfaz del api que será publico 
+//para ser compartido por los clientes del servicio.
+
+import "google/protobuf/empty.proto";
+import "google/protobuf/timestamp.proto";
+
+option csharp_namespace="WeatherForeCast";
+package WeatherForeCast;
+
+service WeatherForecasts {
+	rpc GetWeather(google.protobuf.Empty) returns (WeatherReply);
+	rpc GetWeatherStream(google.protobuf.Empty) returns (stream WeatherData);
+}
+
+message WeatherReply{
+	repeated WeatherData weatherData =1;
+}
+
+message WeatherData{
+	google.protobuf.Timestamp dateTimestamp =1;
+	int32 temperatureC =2;
+	int32 temperatureF =3;
+	string summary =4;
+}
